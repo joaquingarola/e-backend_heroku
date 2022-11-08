@@ -1,0 +1,16 @@
+<div>
+    <table class="table">
+        <tr>
+        <th class="text-center">Titulo</th>
+        <th class="text-center">Precio</th>
+        <th class="text-center">imagen</th>
+    </tr> 
+    {{#each products}}
+        <tr>
+            <td class="text-center">{{this.name}}</td>
+            <td class="text-center">$ {{this.price}}</td>
+            <td class="text-center"><img src={{this.thumbnail}}></td>
+        </tr>
+    {{/each}}
+</table>
+</div>

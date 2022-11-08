@@ -1,0 +1,31 @@
+{
+  "name": "e-backend",
+  "version": "1.0.0",
+  "description": "Proyecto desarrollado durante el curso de backend en CoderHouse",
+  "main": "Contenedor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaquingarola/e-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaquingarola/e-backend/issues"
+  },
+  "homepage": "https://github.com/joaquingarola/e-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "pug": "^3.0.2",
+    "socket.io": "^4.5.1"
+  }
+}
