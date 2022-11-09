@@ -56,8 +56,8 @@ app.get('/',(req, res) =>{
 
 app.use("/products", routerProducts);
 
-server.listen(PORT, ()=> {
-  console.log(`Servidor en puerto: ${PORT}`)
+server.listen(proccess.env.PORT, ()=> {
+  console.log(`Servidor en puerto: ${proccess.env.PORT}`)
 });
 
 server.on("Error", (error) => console.error(error));
