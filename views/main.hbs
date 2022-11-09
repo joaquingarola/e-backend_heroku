@@ -1,12 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+  <div class="container-fluid">
+    <h4 class="navbar-brand" href="#">Bienvenido  <span id="user"></span></h4>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+      <form class="d-flex mt-3 mt-lg-0" role="submit">
+        <a href="/logout" class="btn btn-outline-success">Salir</a>
+      </form>
+    </div>
+  </div>
+</nav>
 {{> formProducts}}
 <div class="bg-light">
-    <h2 class="d-flex justify-content-center">Lista de productos</h2>
+    <h2 class="d-flex justify-content-center">Lista de productos Faker.js</h2>
     <div id="products"></div>
 </div>
 
-{{> formMessage}}
-<div class="bg-light">
-    <h2 class="d-flex justify-content-center">Lista de mensajes</h2>
-    <div id="msg"></div>
+<h1>Mensajes</h1>
+<h2 id="compresion"></h2>
+<div class="d-flex">
+  {{> formMessage}}
+  <div class="bg-light bg-gradient col-8" id="msg"></div>
 </div>
 
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+<script src="./js/main.js"></script> 
+<script src="./js/normalizr.js"></script>

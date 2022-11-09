@@ -1,18 +1,17 @@
-<form action="/products" method="POST">
+<form action="/products" method="POST" style="display: none;">
     <div class="mb-3">
         <p class="form-label">Nombre</p>
-        <input class="form-control" required type="text" name="name" />
+        <input class="form-control" required type="text" name="product_name" />
     </div>
     <div class="mb-3">
         <p class="form-label">Precio</p>
-        <input class="form-control" required type="number" name="price" />
+        <input class="form-control" required type="number" name="product_price" />
     </div>
     <div class="mb-3">
         <p class="form-label">Thumbnail</p>
-        <input class="form-control" required type="text" name="thumbnail" />
+        <input class="form-control" required type="text" name="product_thumbnail" />
     </div>
     <div class="mb-3">
         <button class="btn btn-primary" type="submit">Enviar</button>
     </div>
 </form>
-

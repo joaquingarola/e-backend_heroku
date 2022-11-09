@@ -1,1 +1,0 @@
-[{"email":"1@gmail.com","message":"Hola","socket_id":"884e2vnLMcfv1ATPAAAD","date":"9/8/2022 21:00:22","id":1},{"email":"2@gmail.com","message":"Como va?","socket_id":"qkEcCHRLOIfWJeMcAAAH","date":"9/8/2022 21:01:02","id":2}]

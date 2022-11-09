@@ -1,0 +1,23 @@
+<div class="modal-dialog" role="document">
+  <div class="modal-content rounded-4 shadow">
+    <div class="modal-header pb-4 border-bottom-0">
+      <h2 class="fw-bold mb-0">Login</h2>
+    </div>
+    <div class="modal-body pt-0">
+      <form action="/login" method="post" class="">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control rounded-3" id="username" name="username" placeholder="Ingrese su email..." required>
+          <label for="floatingInput">Email</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="password" class="form-control rounded-3" id="password" name="password" placeholder="Ingrese su contraseña..." required>
+          <label for="floatingInput">Contraseña</label>
+        </div>
+        <div class="d-flex justify-content-end">
+          <button class="mb-2 mx-2 btn rounded-3 btn-primary" type="submit">Ingresar</button>
+          <a href="./signup" class="mb-2 btn rounded-3 btn-success" type="submit">Registrarse</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
