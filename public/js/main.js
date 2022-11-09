@@ -1,13 +1,13 @@
 const socket = io();
 
 socket.on("connect", () => {
-  logger.log('info',"Conectado al servidor");
+  console.log("Conectado al servidor");
 });
 
 socket.on("products", async () => {
-  const data = await fetch('http://localhost:8000/api/products-test')
+  const data = await fetch(`http://localhost:8080/api/products-test`)
   const products = await data.json();
-  fetch("http://localhost:8000/products.hbs")
+  fetch(`http://localhost:8080/products.hbs`)
     .then((res) => res.text())
     .then((text) => {
       const template = Handlebars.compile(text);
