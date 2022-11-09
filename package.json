@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/joaquingarola/e-backend#readme",
   "devDependencies": {
-    "@faker-js/faker": "^7.5.0",
     "nodemon": "^2.0.19"
   },
   "dependencies": {
